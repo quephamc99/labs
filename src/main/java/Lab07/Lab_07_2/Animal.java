@@ -9,7 +9,6 @@ public class Animal {
 
     public Animal(String name, int maxSpeed) {
         this.name = name;
-
         this.randomSpeed= new SecureRandom().nextInt(maxSpeed);
     }
 
